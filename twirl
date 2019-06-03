@@ -23,7 +23,7 @@ indent="   "
 # Get full directory name of this script
 cwd="$(cd "$(dirname "$0")" && pwd)"
 
-DOTFILES_ROOT=$HOME/.dotfiles
+DOTFILES_ROOT=$HOME/dotfiles
 
 ###############################################################################
 # Utility Functions
@@ -480,7 +480,7 @@ ask() {
 }
 
 ###############################################################################
-# 
+#
 ###############################################################################
 
 # return 1 if global command line program installed, else 0
